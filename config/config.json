@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-collaboration-footer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/spCollaborationFooter/SpCollaborationFooterApplicationCustomizer.js",
+          "manifest": "./src/extensions/spCollaborationFooter/SpCollaborationFooterApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpCollaborationFooterApplicationCustomizerStrings": "lib/extensions/spCollaborationFooter/loc/{locale}.js"
+  }
+}
